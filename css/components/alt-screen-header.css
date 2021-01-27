@@ -1,0 +1,45 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+}
+
+.alt-header-column {
+  width: 33%;
+}
+
+.alt-header__title {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.alt-header-column:first-child {
+  margin-right: auto;
+}
+
+.alt-header-column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header-column span:last-child {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.chat-screen .alt-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
